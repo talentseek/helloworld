@@ -5,6 +5,14 @@ body {
 	font-family: "brandon-grotesque", helvetica, arial, sans-serif;
 }
 
+a { 
+	color: white; 
+}
+
+a:hover {	
+	color: white;
+}
+
 nav {
 	margin-top: 30px;
 	margin-left: 30px;
@@ -19,6 +27,7 @@ nav a {
 nav a:focus, .nav>li>a:hover {
         text-decoration: none;
         background-color: transparent !important;
+        color: white;
   }
 
 
@@ -27,7 +36,7 @@ footer {
    bottom:0;
    width:100%;
    height:80px;   /* Height of the footer */
-   
+   color: white;
 }
 
 .social{
@@ -37,6 +46,7 @@ footer {
 
 .legal {
 	margin-bottom: 20px
+	color: white;
 }
 
 i {
